@@ -6,29 +6,29 @@
                     <form>
                         <div class="form-group">					   
                             <div class="col-md-6 col-xs-12">
-                                <input type="submit" class="form-control btn btn-default" value="اضافة بيانات طالب"/>
+                                <a href="#" class="form-control btn btn-default">اضافة مسابقه جديده</a>
                             </div>
                         </div>
                         <div class="form-group">					   
                             <div class="col-md-6 col-xs-12">
-                                <input type="submit" class="form-control btn btn-default" value="اضافة مسابقه جديده "/>
+                                <a href="#" class="form-control btn btn-default">اضافة مسابقه جديده</a>
                             </div>
                         </div>
                         <div class="form-group">					   
                             <div class="col-md-6 col-xs-12">
-                                <input type="submit" class="form-control btn btn-default" value="اضافة مسابقه جديده للطالب "/>
+                                <a href="#" class="form-control btn btn-default">اضافة مسابقه جديده لكل طالب</a>
                             </div>
                         </div>
                         <div class="form-group">					   
                             <div class="col-md-6 col-xs-12">
-                                <input type="submit" class="form-control btn btn-default" value="عرض التقارير  "/>
+                                <a href="#" class="form-control btn btn-default">عرض التقارير</a>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-3 col-xs-hidden">
                             </div>					   
                             <div class="col-md-6 col-xs-12">
-                                <input type="submit" class="form-control btn btn-default" value="خروج "/>
+                                <a href="#" class="form-control btn btn-default">خروج</a>
                             </div>
                             <div class="col-md-3 col-xs-hidden">
                             </div>
@@ -52,7 +52,7 @@ export default {
     margin-top:150px;
     margin-bottom:130px  
 }
-.section input[type=submit].btn-default {
+.section .btn-default {
    margin:10px;
    color: #000;
     background-color: #fff;
@@ -61,9 +61,10 @@ export default {
     height: 60px;
     font-size: 22px
  }
- .section input[type=submit].btn-default:hover {
+ .section .btn-default:hover {
    color: #fff;
     background-color: #f9ac1a;
     border-color: #f9ac1a;
  }
+ 
 </style>
